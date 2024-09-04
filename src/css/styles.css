@@ -111,9 +111,31 @@ main {
 
 .container .profile-data .info h1{
   font-size: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-weight: 700;
 }
+
+.container .profile-data .info .nome-usuario{
+  font-weight: 500;
+}
+
+.container .profile-data .info .numero-seguidores, .numero-seguindo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.container .profile-data .info .seguidores-seguindo{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container .profile-data .info .seguidores-seguindo, .bio {
+    margin-top: 15px;
+}
+
+
 
 .container .profile-data .info p{
   font-size: 15px;  
@@ -177,7 +199,8 @@ main {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 796px) {
+  
   main {
     padding: 15% 0;    
   }
@@ -189,7 +212,18 @@ main {
   .container .profile-data .info img,
   .container .profile-data .info .data
   {
-    width: 100%;
+    margin: 0 auto;
+    width: 70%;
     padding: 0;
+  }
+}
+
+
+@media (max-width: 580px) {
+  main 
+  .container .profile-data .info img,
+  .container .profile-data .info .data
+  {
+    width: 100%;
   }
 }
