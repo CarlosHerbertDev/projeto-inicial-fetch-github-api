@@ -34,4 +34,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse é o Projeto inicial: Fetch, Github e API
 
-- [Acesse o projeto finalizado, online](https://carlosherbertdev.github.io/portfolio/)
+- [Acesse o projeto finalizado, online](https://carlosherbertdev.github.io/projeto-inicial-fetch-github-api/)
