@@ -144,13 +144,6 @@ main {
   line-height: 23px;
 }
 
-/* REPOSITORIES */
-
-.container .profile-data .repositories h2{
-  margin-bottom: 30px;
-  text-align: center;
-}
-
 .container .profile-data .repositories ul{
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +167,25 @@ main {
 .container .profile-data.hide{
   display: none;
 }
+
+.container .profile-data .events h2,
+.container .profile-data .repositories h2 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+.container .profile-data .events ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container .profile-data .events ul li span {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+
 
 @media (max-width: 1280px) {
   .container {

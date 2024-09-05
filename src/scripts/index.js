@@ -42,6 +42,7 @@ async function getUserData (userName) {
     }
 
     const eventsResponse = await getEvents(userName)
+console.log(eventsResponse);
 
     // console.log(eventsResponse);
     // eventsResponse.forEach(event => {
@@ -60,3 +61,4 @@ async function getUserData (userName) {
 
 }
 
+// getUserData("CarlosHerbertDev")
