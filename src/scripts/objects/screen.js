@@ -5,10 +5,10 @@ const screen = {
                                         <img src="${user.avatarUrl}" alt="Foto do perfil do usuário" />
                                         <div class="data">
                                             <h1>${user.name ?? 'Não possui nome cadastrado 😥'}</h1> 
-                                             <p class = 'nome-usuario'>${user.userName}</p>
+                                            <p class = 'nome-usuario'>${user.userName}</p>
                                             <div class = 'seguidores-seguindo'>
-                                            <p> 👥 Seguindo <span class = 'numero-seguindo'>100</span> </p>
-                                            <p> 👥 Seguidores <span class = 'numero-seguidores'>100</span></p>
+                                            <p> 👥 Seguindo <span class = 'numero-seguindo'>${user.following}</span> </p>
+                                            <p> 👥 Seguidores <span class = 'numero-seguidores'>${user.followers}</span></p>
                                             </div>
                                             <p class = 'bio'> ${user.bio ?? 'Não possui bio cadastrada 😥'} </p>
                                         </div>
@@ -24,6 +24,15 @@ const screen = {
                                             </div>`            
         }
 
+        let eventsItens = ''
+        user.events.forEach(event => {
+            console.log(event);
+            
+            // if (event.type === "") {
+                
+            // }
+            
+        })
 
     },
     renderNotFund(){

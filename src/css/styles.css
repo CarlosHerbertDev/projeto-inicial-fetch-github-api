@@ -66,6 +66,7 @@ main {
   margin: 0 auto;
   padding: 10px;
   border-radius: 7px;
+  text-align: center;
   border: 1px solid grey;
 }
 
@@ -80,7 +81,7 @@ main {
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
+  background-color: #24292e;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -106,7 +107,7 @@ main {
 .container .profile-data .info img{
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid #24292e;
 }
 
 .container .profile-data .info h1{
@@ -166,7 +167,7 @@ main {
 }
 
 .container .profile-data .repositories ul li a:hover{
-  background-color:hotpink;
+  background-color:#24292e;
   color: #fff
 }
 
@@ -216,6 +217,10 @@ main {
     width: 70%;
     padding: 0;
   }
+  .container .profile-data .info h1 {
+    margin-top: 20px;
+  }
+
 }
 
 
